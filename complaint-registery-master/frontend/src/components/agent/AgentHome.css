@@ -1,0 +1,30 @@
+/* AgentHome.css */
+.purple-navbar {
+  background-color: #6f42c1 !important;
+}
+
+.page-bg {
+  background-color: #f4ecff;
+  min-height: 80vh;
+  padding-top: 80px;
+}
+
+.purple-card {
+  background-color: #f9f6ff;
+  border: 1px solid #d6bbf8;
+}
+
+.purple-text {
+  color: #6f42c1;
+}
+
+.btn-purple {
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+}
+
+.btn-purple:hover {
+  background-color: #5a379c;
+  color: white;
+}
