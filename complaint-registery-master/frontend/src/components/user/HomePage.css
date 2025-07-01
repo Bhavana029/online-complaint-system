@@ -1,0 +1,85 @@
+/* HomePage.css */
+
+.complaint-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .complaint-card {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8960a3;
+  padding: 10px 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.navbar-left {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.navbar-links button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.navbar-links button.active {
+ font-weight: normal;
+  /* text-decoration: underline; */
+}
+
+.logout-btn {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .navbar-links.show {
+    display: flex;
+  }
+
+  .navbar-links button {
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+    border-top: 1px solid #fff3;
+  }
+}
